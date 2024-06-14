@@ -1,6 +1,7 @@
 #shebang
 
 # how to use this script
+# first method
     # 1.put your {shebang} in first line like {/usr/bin/python3}
     # 2.in terminal write -> chmod +x open.py 
     # 3. run it like this -> ./open.py youtube
