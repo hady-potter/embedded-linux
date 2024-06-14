@@ -1,10 +1,13 @@
 #shebang
 
 # how to use this script
-# 1.put your {shebang} in first line like {/usr/bin/python3}
-# 2.in terminal write -> chmod +x open.py 
-# 3. run it like this -> ./open.py youtube
-# or like this -> ./open.py youtube google ... 
+    # 1.put your {shebang} in first line like {/usr/bin/python3}
+    # 2.in terminal write -> chmod +x open.py 
+    # 3. run it like this -> ./open.py youtube
+    # or like this -> ./open.py youtube google ...
+
+# second method
+    # python3 open.py youtube google 
 
 
 import sys
