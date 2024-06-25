@@ -9,6 +9,7 @@ if len(sys.argv) != 2:
   print('Usage: ', '<./startupProject.py> <project_name>')
   sys.exit()
 
+
 project_name = sys.argv[1]
 
 # check if project with the same name already exists
