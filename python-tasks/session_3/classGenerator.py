@@ -37,8 +37,6 @@ namespace svm ''' + "{\nclass " + f"{class_name} " + "{\n\npublic:\n  " + f"{cla
   f.close()
 
 
-print(os.getcwd())
-
 auther_name = input('Auther Name: ')
 class_name = input("Class Name: ")
 
