@@ -4,14 +4,11 @@ import os
 import sys
 import shutil
 
-os.chdir('/home/hady-potter/Dev/cpp')
-
 if len(sys.argv) != 2:
   print('Usage: ', 'python3 <startupProject.py> <project_name>')
   print('Usage: ', '<./startupProject.py> <project_name>')
   sys.exit()
 
-print(len(sys.argv))
 project_name = sys.argv[1]
 
 # check if project with the same name already exists
