@@ -1,11 +1,12 @@
 from bs4 import BeautifulSoup
 import csv
 from itertools import zip_longest
+import random
 
 names = []
 params = []
 return_types = []
-
+ids = []
 
 # open file
 src = open('docs/html/test_8h.html', 'r')
@@ -33,14 +34,19 @@ for i in names_and_params:
 for i in return_type:
   return_types.append(i.text)
 
+# generate id for each function
+tmp = 'IDX0'
+for i in range(len(names)):
+  ids.append(tmp + str(random.randint(999, 999999)))
 
-file_list = [return_types, names, params]
+
+file_list = [return_types, names, params, ids]
 exported = zip_longest(*file_list)
 
 
 with open('file.csv', 'w') as f:
   writer = csv.writer(f)
-  writer.writerow(['return type', 'name', 'params'])
+  writer.writerow(['return type', 'name', 'params', 'id'])
   writer.writerows(exported)
 
 
