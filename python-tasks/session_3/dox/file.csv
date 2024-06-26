@@ -1,5 +1,0 @@
-return type,name,params,id
-int ,sum,"(int a, int b)",IDX067194
-int ,sub,"(int a, int b)",IDX0763237
-void ,func1,(int x),IDX0984908
-double ,func2,(),IDX02435
