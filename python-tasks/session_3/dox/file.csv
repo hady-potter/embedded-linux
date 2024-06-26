@@ -1,0 +1,5 @@
+return type,name,params
+int ,sum,"(int a, int b)"
+int ,sub,"(int a, int b)"
+void ,func1,(int x)
+double ,func2,()
